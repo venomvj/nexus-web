@@ -1,0 +1,292 @@
+body{
+    background-color: white;
+}
+
+
+/* _______________________________ HEADER _________________ */
+
+.title .navbar{
+    margin-top: 32px;
+    background-color: rgb(41, 9, 41);
+}
+.title .navbar li a{
+    font-size: 10px;
+    margin-left: 7px;
+    color: black;
+    text-align: center;
+    color: white;
+    padding: 0px;
+}
+header .title{
+    width: 100%;
+    text-align: center;
+}
+header .logo img{
+    margin: 0;
+    padding: 0;
+    left: 38%;
+    height: 30px;
+    position: fixed;
+}
+
+/* _______________________________ POSTER _________________ */
+header .poster{
+    height: 34vw;
+}
+
+
+/* _______________________________ BRANDS CATEGORIES _____*/
+.brands .brandsimage{
+    height: 50px;
+    width: 50px;
+    padding-top: 4px;
+}
+.container_brands .brands :hover{
+    height: 55px;
+    width: 55px;
+}
+.container_brands .brands{
+    padding: 0 9px;
+    margin: 0;
+}
+section .brandtext{
+    padding-top: 90px;
+    font-size: 15px;
+}
+section .available{
+    font-size: 7px;
+}
+
+
+
+/* _______________________________ SORT BY _________________*/
+section .sortby{
+    padding: 3px;
+}
+.sortby select{
+    font-size: 12px;
+}
+.sortby label{
+    font-size: 14px;
+}
+
+
+/* ________________________MOBILES - LAPI - ACCESS _________________*/
+.mobile .container .box{
+    width: 100%;
+    height: 130px;
+    align-items: center;
+    padding: 1vw;
+    margin: 1vw;
+}
+
+.mobile .box img{
+    height: 6rem;
+    width: 6rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.mobile .box img:hover{
+    height: 6.1rem;
+    width: 6.1rem;
+}
+.mobile .mobilename{
+    font-size: 4vw;
+    padding-left: 0vw;
+    padding-top: 1.3rem;
+}
+.mobile .mobiledetails{
+    font-size: 2.4vw;
+    padding-left: .8rem;
+    padding-top: 3.1rem;
+}
+.mobile .pricetag{
+    font-size: 4vw;
+    margin-left: 10.3rem;
+    margin-top: 1.3rem;
+}
+.mobile .stars{
+    font-size: 2vw;
+    margin-left: 10.4rem;
+    margin-top: 2.7rem;
+    font-weight: bold;
+}
+.mobile .box .buy{
+    display: inline-block;
+    position: absolute;
+    margin-left: 10.1rem;
+    margin-top: 6.1rem;
+    font-size: 8px;
+    padding: 5px;
+}
+
+.con1{
+    flex-direction: column;    
+}
+.con2{
+    flex-direction: column;
+}
+.con3{
+    flex-direction: column;
+}
+.con4{
+    flex-direction: column;
+}
+.con5{
+    flex-direction: column;
+}
+.con6{
+    flex-direction: column;
+}
+.con7{
+    flex-direction: column;
+}
+.con8{
+    flex-direction: column;
+}
+.con9{
+    flex-direction: column;
+}
+
+
+
+/* _______________________________ TITLES _______________________________*/
+section .mobtitle{
+    font-size: 20px;
+    padding: 0;
+    height: auto;
+    margin: 0;
+}
+section .mobtitle2{
+    font-size: 10px;
+    height: auto;
+}
+
+section .laptitle{
+    font-size: 20px;
+    padding: 0;
+    height: auto;
+}
+section .laptitle2{
+    font-size: 10px;
+    height: auto;
+}
+
+section .acctitle{
+    font-size: 20px;
+    padding: 0;
+    height: auto;
+}
+section .acctitle2{
+    font-size: 10px;
+    height: auto;
+}
+
+
+
+/* _______________________________ ORDER PAGE _______________________________*/
+.order .ordercontainer form{
+    width: 90vw;
+    margin-top: 60px;
+    padding: 10px;
+}
+.order .ordercontainer form .orderbox, .order .ordercontainer form textarea{
+    font-size: 16px;
+    width: 100vw;
+    margin: 5px;
+    padding: 9px;
+    background-color: #f8f8fe;
+}
+#buyy .place-order{
+    align-items: center;
+    margin: 35px;
+    margin-top: 540px;
+}
+#buyy .place-order{
+    font-size: 20px;
+    padding: 10px 40px;
+}
+
+/* ____________________________ ORDER CONFIRMED - POPUP ____________________________ */
+.buyorder .popup{
+    width: 300px;
+    height: 250px;
+    left: 20%;
+    top: 35%;
+}
+.buyorder .popup .header{
+    height: 48px;
+}
+.buyorder .popup .header h2{
+    margin: 2% 0;
+}
+.buyorder .popup .fa-check{
+    font-size: 40px;
+    height: 70px;
+    width: 70px;
+    padding-top: 13px;
+    margin: 20px 0 5px 125px;
+}
+.buyorder .popup p{
+    padding-top: 10px;
+    font-size: 13px;
+    padding-bottom: 50px;
+}
+.buyorder .popup .close-btn{
+    bottom: 12px;
+    right: 20px;
+    padding: 6px 8px;
+}
+
+
+
+
+/* _______________________________ ABOUT US PAGE ________________________________*/
+footer .aboutusbox{
+    flex-direction: column;
+    width: 100%;
+    height: 35%;
+    padding: 10px;
+    margin-top: 250px;
+    margin-left: 5%;
+}
+
+footer .profilebox .profile1 img{
+    width: 140px;
+    margin: 0 35%;
+    margin-top: 85px;
+}
+footer .profilebox .profile2 img{
+    flex-direction: column;
+    width: 140px;
+    margin: 0 35%;
+    margin-top: 183vw
+}
+footer .aboutusbox p{
+    font-size: 13px;
+    margin: 5px;
+}
+footer .aboutusbox .abouttitle{
+    font-size: 30px;
+}
+
+
+/* _______________________________ CONTACT US ________________________________*/
+.contactus .handles h2{
+    font-size: 20px;
+}
+.contactus .handles .icons .fab{
+    padding: 1rem 3px;
+    font-size: 26px;
+}
+.contactus .handles .svtext{
+    font-size: 16px;
+}
+.contactus .handles .svtext2{
+    font-size: 10px;
+}
+
+#contact-about{
+    padding-top: 230vw;
+    width: 112%;
+}
